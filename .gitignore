@@ -1,0 +1,33 @@
+# Binaries for programs and tests
+/debug/
+target/
+
+# If you have a folder for logs
+/log/
+
+# If you have a folder for temp files
+/tmp/
+
+# Exclude Cargo.lock from projects with multiple packages
+# Uncomment if using Rust's workspace feature
+# Cargo.lock
+
+# Exclude generated files from the "cargo doc" command
+/target/doc/
+
+# Node.js dependencies (for a frontend project)
+node_modules/
+
+# If using any IDE or editor specific files, such as:
+.idea/
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+*.cab
+
+# Rust specific files
+*.rs.bk
